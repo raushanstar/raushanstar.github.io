@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  @media only screen and (max-width: 600px) 
+}
+title{
+  image-;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  color: #333;
+  
+}
+/* .container {
+  max-width: 1100px;
+  margin: auto; */
+/* } */
+.text-primary {
+  color: #3693ff;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid #3693ff;
+  z-index: 1;
+}
+#navbar ul{
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+#navbar h2 a{
+color:#fff;
+text-decoration: none;
+
+}
+#navbar li a{
+text-decoration: none;
+color:#fff;
+padding:1rem;
+font-size: 1.2rem;
+margin:0 0;
+transition: bacground-color 0.3s;
+}
+#navbar li a:hover {
+    background-color:#3693ff;
+
+}
+
+#showcase{
+  
+  height: 90vh;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('../photo1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  } 
+  /* utility class */
+ .container{
+   max-width: 1100px;
+   margin:auto;
+  
+ }
+.text-primary{
+color:#3693ff;
+
+}
+.bg-light{
+  background: #f4f4f4;
+  color:#333;
+}
+.bg-dark{
+  background: #333;
+  color:#fff;
+}
+.showcase-content {
+     display: flex;
+    flex-direction: column;
+ text-align: center;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 81px;
+left: 0;
+bottom:0;
+right: 0;
+background: rgba(0,0,0 0.6);
+/* color: #fff;   */
+}
+.showcase-content h1{
+color:#fff;
+
+}
+/* body color */
+.body-color{
+  background-color: #EBEDEF;
+}
+
+/* about */
+#about{
+  padding:5rem 0;
+
+}
+#about h2{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#about h3{
+font-size: 2rem;
+margin-bottom: 1rem;
+
+}
+#about p.lead{
+margin-bottom: 1rem;
+
+}
+#about .about-content{
+display:flex;
+
+}
+#about .about-text,
+#about .about-image{
+  flex:1;
+}
+#about .about-text{
+  text-align: center;
+}
+#about .about-image img{
+  display:block;
+  margin-left: auto;
+  width:55%;
+  border-radius: 40%;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+/* skill */
+
+.skill {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50; }
+.css {width: 70%; background-color: #2196F3;}
+.js {width: 45%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+/* contact */
+#contact{
+  padding:5rem 0;
+
+}
+#contact h3{
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0;
+  margin-top:5rem;
+}
+#contact .form-box{
+background: #fff;
+padding: 3rem;
+box-shadow: 2px 2px 5px #d1d1d1;
+border-radius: 10px;
+}
+#contact .form-group{
+margin-bottom: 2rem;
+
+}
+#contact .form-group lable {
+display: block;
+margin-bottom: 0.5rem;
+width:80%;
+margin-left: 10%;
+font-size:1.1rem;
+
+}
+#contact .form-group input,
+#contact .form-group textarea{
+width:80%;
+margin-left:10%;
+font-weight: 1.3rem;
+padding:1rem;
+border:0.5px solid #333;
+border-radius: 5px;
+}
+#contact .contact-btn{
+width:80%;
+margin-left: 10%;
+display: inline-block;
+padding: 1rem 3rem;
+border:none;
+border-radius: 5px;
+font-size: 1.5rem;
+background: #3693ff;
+color:#fff;
+margin-bottom: 2rem;
+cursor:pointer;
+transition: 0.3s ;
+
+
+}
+#contact .contact-btn:hover{
+  background: #0378ff;
+}
+
+
+/* footer */
+footer{
+  padding:1.5rem;
+  background-color: #252824;
+
+}
+footer p{
+  color: #a6a7a8;
+  text-align: center;
+}
+
+.change-content:after{
+  content:'';
+  animation:changetext 5s infinite linear;
+  color:#0378ff;
+  }
+  @keyframes changetext{
+  0%{content:"Computer Science Engg.";}
+  25%{content:"Web developer";}
+  100%{content:"java, Python";}
+  
+  }
+/* font icon */
+.font-awesome a{
+  color:#C9D5E2;
+  margin:5px;
+  margin-bottom: 5px;
+  padding: 2px;
+width: 12px;
+height:15px ;
+text-decoration: none;
+font-size: 20px;
+}
+.font-awesome{
+  text-align: center;
+  font-size:15px
+
+}
